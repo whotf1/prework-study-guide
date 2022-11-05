@@ -1,0 +1,11 @@
+
+--3.1.3--
+
+<style> - element defines the css styles associated with a website
+<base> - element defines the base URL for a webpage
+<link> - element connects an external resource to the HTML document
+<META> - element defines the metadata such as the character set, description, keywords, author, and viewport
+
+<script> - element embeds client-side scripts in the HTML document 
+# in the html code for the panda fan site, the meta element defines the charset as UTF-8 wich allows us to use most character and sumbols on the page
+# the title element which previously noted is very important for search engine optimization is defined as "Panda Fan Site!"
