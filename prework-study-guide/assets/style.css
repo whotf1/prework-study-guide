@@ -1,0 +1,42 @@
+* { /* the wildcard symbol "*" will apply all these rules to all elements visible on the page- it declares that ALL of the elements on the page will have the style properties of what is in the curly brackets*/
+    margin: 0;/*margin is pretty much a margin in a word document, it indicates how much space we want around the outside of an element*/
+    padding: 0; /*padding is often confused with margin becuase it renders a similar thing, to a margin, but padding adds space around the content inside an element. So when you increase padding you are making the entire element bigger*/
+}
+/*adding css rules to the style sheets, this specific rule is for the header and footer*/
+header, /*you can combine two selectors like this so you dont have to repeat the same code.*/
+footer {
+    width:100%;
+    height:120px;
+    background-color:blue;
+    color:white;
+}
+/*FORMATING HEADERS ON PAGE*/
+h1,/*h1 and h2 will now have a rule assignment of a positioning property text-align, which is centered. this is one way to center a title or heading on a webpage*/
+h2 {
+    text-align:center;
+}
+/*FORMATING IMAGES ON PAGE*/
+img { /*the <img> selector assigns property values to any image element in the markup,the display property is assigned with the block value, which assigns each image to start on a new line*/ 
+    display:block;
+    height: 50px;
+    width:50px;
+    margin-left:auto;
+    margin-right:auto;
+}
+/*formatting lists in prework study guide*/
+ul{
+    padding-left:40px;
+    font-size:20px;
+}
+/*formating the <p> text to be centered on the page with font 30px*/
+p {
+    text-align:center;
+    font-size:30px;
+}
+/*adding a card css style that can be added for certain things in the html code when declared*/
+.card { /*card is a class selector, any HTML alement assigned to the class card will gain these propertys from the CSS*/
+    width: 80%; /*addresses the width of the element at 80% of the available width*/
+    margin: 40px auto; /*the margin property assigns 40px to the top and bottom, and the auto value to the left and right*/
+    border: 5px solid gray; /*the border property assigns a border with a width of 5px that is solid and gray*/
+    box-shadow:5px 10px #5e5d5d; /*the box-shadow prop adds shadow effects around an element's frame.{x and y offset(relative to the element), blur and spread radius,color}, we havent descriped a blur or spread radius here*/
+}
